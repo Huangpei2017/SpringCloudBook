@@ -4,14 +4,10 @@
 
 **由于Spring Cloud更新频繁，作者会在博客和公众号中持续更新相关内容**
 
-## 博客文章
+## cloud各个组件概览 使用
+1，eureka 服务发现使用 ： 核心
+2，ribbon 客户端负载均衡使用： 分发不同服务
+3，hystrix 断路器：熔断
 
-- 作者博客：http://blog.didispace.com
-- Spring Cloud系列博文：http://blog.didispace.com/categories/Spring-Cloud/
-- Spring Boot系列博文：http://bbs.springcloud.com.cn/categories/Spring-Boot/
-
-## 我的公众号
-
-![输入图片说明](http://git.oschina.net/uploads/images/2017/0105/082219_0315cece_437188.jpeg "在这里输入图片标题")
-
-
+5，zuul api网关，路由功能： 路由，校验
+6，config 分布式配置中心

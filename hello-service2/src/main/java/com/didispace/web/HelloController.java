@@ -32,11 +32,6 @@ public class HelloController {
 	@RequestMapping(value = "/hello1", method = RequestMethod.GET)
 	public String hello(@RequestParam String name) {
 		ServiceInstance instance = client.getLocalServiceInstance();
-		try {
-			Thread.sleep(2000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
 		logger.info("/hello1, host:" + instance.getHost() + ", service_id:" + instance.getServiceId());
 		return "Hello " + name;
 	}

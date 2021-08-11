@@ -34,7 +34,7 @@
 			<!--<artifactId>spring-boot-starter-actuator</artifactId>-->
 		<!--</dependency>-->
 	</dependencies>
-
+	<!-- dependencyManagement只是声明，此处引入需要声明 具体的版本号等详细信息才会引入，否则不会 -->
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

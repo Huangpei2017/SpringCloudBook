@@ -20,11 +20,11 @@ public class Application {
 		return new AccessFilter();
 	}
 
-	@Bean
+	/*@Bean
 	public PatternServiceRouteMapper serviceRouteMapper() {
 		return new PatternServiceRouteMapper(
 				"(?<name>^.+)-(?<version>v.+$)",
 				"${version}/${name}");
-	}
+	}*/
 
 }

@@ -13,6 +13,7 @@
         <module>eureka-server</module>
         <module>eureka-server-ha</module>
         <module>hello-service</module>
+        <module>hello-service2</module>
 
         <module>ribbon-consumer</module>
         <module>feign-consumer</module>
@@ -56,6 +57,8 @@
 
         <module>consul-client-1</module>
         <module>api-gateway-consul</module>
+        <module>hello-service-test</module>
+        <module>consumer-server-test</module>
     </modules>
 
 </project>
